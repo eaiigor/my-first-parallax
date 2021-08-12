@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+section {
+  width: 100%;
+  height: 600px;
+  text-align: center;
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.texto {
+  background-color: rgb(201, 201, 222);
+  height: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.caixa-texto {
+  max-width: 50rem;
+}
+
+.texto h1 {
+  font-family: Indie FLower;
+  font-size: 35px;
+}
+
+.texto p {
+  font-family: Indie Flower;
+  font-size: 25px;
+  margin-top: 30px;
+}
+
+#img1 {
+  background-image: url('img/img1.jpg');
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome {
+  width: 30rem;
+  height: 5rem;
+  background-color: rgba(30, 3, 92, 0.865);
+  box-shadow: 0 0 1em blue;
+}
+
+.welcome h1 {
+  color: white;
+  font-family: Indie Flower;
+  margin-top: 0.5rem;
+  font-size: 50px;
+}
+
+#sessao-1 {
+  background-color: rgb(0, 36, 81);
+  color: rgba(255, 255, 255, 0.776);
+}
+
+#img2 {
+  background-image: url('img/img2.jpg');
+}
+
+#sessao-2 {
+  background-color: rgb(24, 24, 24);
+  color: rgba(255, 255, 255, 0.776);
+}
+
+#img3 {
+  background-image: url('img/img3.jpg');
+}
+
+#sessao-3 {
+  background-color: rgb(0, 36, 81);
+  color: rgba(255, 255, 255, 0.776);
+}
+
+#img4 {
+  background-image: url('img/img4.jpg');
+}
